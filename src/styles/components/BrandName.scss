@@ -4,5 +4,12 @@
   cursor: pointer;
   span {
     text-transform: uppercase;
+    font-size: xx-large;
+    border: 0.1rem solid #f50460;
+    color: $blueColor;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
   }
 }
