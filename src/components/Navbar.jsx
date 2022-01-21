@@ -4,6 +4,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import BrandName from "./BrandName";
 import "../styles/components/Navbar.scss";
+import { motion } from "framer-motion";
+import { navbarAnimation } from "../Animation";
 
 function Navbar() {
   const [toggleNavbar, setToggleNavbar] = useState(false);
@@ -12,7 +14,11 @@ function Navbar() {
   };
 
   return (
-    <div className={`navbar ${toggleNavbar === true ? "active" : ""}`}>
+    <motion.div
+      className={`navbar ${toggleNavbar === true ? "active" : ""}`}
+      variants={navbarAnimation}
+      transition={{ delay: 0.1 }}
+    >
       <div className="col">
         <BrandName />
         <div className="collapsable-button">
@@ -33,10 +39,10 @@ function Navbar() {
               <a href="#services">Services</a>
             </li>
             <li>
-              <a href="">Testimonials</a>
+              <a href="#testimonials">Testimonials</a>
             </li>
             <li>
-              <a href="">Blog</a>
+              <a href="#blog">Blog</a>
             </li>
             <li>
               <Button content="Contact" />
@@ -44,7 +50,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-    </div>
+    </motion.div>
   );
 }
 

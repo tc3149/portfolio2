@@ -1,5 +1,4 @@
-@import "../utils/colors.scss";
-
+@import "../utils/Colors.scss";
 .title {
   margin-bottom: 2rem;
   h2 {
@@ -19,7 +18,6 @@
     background-color: $pinkColor;
   }
 }
-
 .center {
   display: flex;
   justify-content: center;

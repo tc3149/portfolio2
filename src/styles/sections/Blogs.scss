@@ -1,11 +1,14 @@
 @import "../utils/colors.scss";
 
-.testimonials-container {
-  background-color: #efe8ff;
+.blogs-container {
   .container {
     margin: 0 10%;
 
     padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     .title-container {
       display: flex;
       justify-content: center;
@@ -18,36 +21,52 @@
         color: $lightFontColor;
       }
     }
-    .testimonials {
-      margin-top: 1.5rem;
+    .blogs {
+      margin-bottom: 2rem;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 3rem;
+      gap: 4rem;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .testimonials-container {
+  .blogs-container {
     .container {
       .title-container {
         p {
-          font-size: 1.7rem;
+          font-size: 1.8rem;
         }
       }
-      .testimonials {
+      .blogs {
         grid-template-columns: 1fr;
       }
     }
   }
 }
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .testimonials-container {
+  .blogs-container {
     .container {
       .title-container {
         p {
-          font-size: 1.7rem;
+          font-size: 1.8rem;
         }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .blogs-container {
+    .container {
+      .blogs {
+        gap: 1rem;
       }
     }
   }

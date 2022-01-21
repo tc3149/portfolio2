@@ -2,15 +2,22 @@ import Testimonials from "./sections/Testimonials";
 import About from "./sections/About";
 import Starter from "./sections/Starter";
 import Why from "./sections/Why";
+import Blogs from "./sections/Blogs";
+import Footer from "./sections/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div>
+    <motion.div initial="hidden" animate="show">
+      <ScrollToTop />
       <Starter />
       <About />
       <Why />
       <Testimonials />
-    </div>
+      <Blogs />
+      <Footer />
+    </motion.div>
   );
 }
 
