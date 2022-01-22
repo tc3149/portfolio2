@@ -2,34 +2,66 @@
 
 .main-container {
   // margin: 0 10rem;
-  margin: 0 10%;
+  background: linear-gradient(45deg, #1d1b43, #262446, #2a2941, #15123f);
+  background-size: 600% 600%;
+  animation: GradientBackground 10s ease infinite;
   .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     .content {
-      margin-top: 3.4rem;
-      margin-right: 3rem;
+      padding-bottom: 2rem;
+      text-align: center;
       h1 {
-        font-size: 3rem;
-        color: $headingColor;
+        font-size: 4.5rem;
+        font-weight: 300;
+        color: white;
       }
-      p {
-        font-size: 1.4rem;
-        color: $lightFontColor;
-        line-height: 1.9rem;
+      h2 {
+        margin-top: 0.7rem;
+        font-weight: 300;
+        font-size: 2rem;
+        color: rgb(168, 167, 167);
       }
-      .button-container {
-        display: flex;
-        button {
-          margin-right: 1rem;
+    }
+    .row-container {
+      display: flex;
+      width: 40%;
+      justify-content: space-around;
+      align-items: center;
+      .section1 {
+        text-align: center;
+        p {
+          font-size: 1.4rem;
+          color: rgb(235, 229, 229);
+          line-height: 0.5rem;
+        }
+        p.dean {
+          font-style: italic;
+        }
+      }
+      .vertical {
+        height: 2.7rem;
+        width: 0.1rem;
+        border-radius: 0.1rem;
+        background: white;
+      }
+      .section2 {
+        text-align: center;
+        p {
+          font-size: 1.4rem;
+          color: rgb(235, 229, 229);
+          line-height: 0.5rem;
         }
       }
     }
-    .image {
-      img {
-        height: 35rem;
-        width: 35rem;
-      }
+    .contact-container {
+      display: flex;
+      width: 5%;
+      justify-content: space-around;
+      align-items: center;
     }
   }
 }
@@ -41,18 +73,30 @@
       .content {
         margin-right: 0;
         h1 {
-          font-size: 4rem;
+          font-size: 5rem;
         }
         p {
           font-size: 2rem;
           line-height: 2.5rem;
         }
       }
-      .image {
-        margin-left: 2rem;
-        img {
-          height: 25rem;
-          width: 25rem;
+      .row-container {
+        flex-direction: column;
+        width: 100vw;
+        .section1 {
+          p {
+            font-size: 2rem;
+            line-height: 1.9rem;
+          }
+        }
+        .vertical {
+          display: none;
+        }
+        .section2 {
+          p {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+          }
         }
       }
     }
@@ -87,3 +131,17 @@
     }
   }
 }
+
+@keyframes GradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} ;
