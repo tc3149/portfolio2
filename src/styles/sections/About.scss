@@ -5,25 +5,26 @@
   .container {
     margin: 0 10%;
     padding: 5rem 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    display: flex;
+
     .details {
+      display: flex;
+      flex-direction: column;
       p {
-        color: $lightFontColor;
+        color: #1b1a1b;
         line-height: 1.3rem;
         font-size: large;
-        text-align: justify;
+        text-align: left;
         width: 90%;
-      }
-      button {
-        margin-top: 3rem;
+        font-weight: 500;
       }
     }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
+    .picture-container {
+      height: 35vh;
+      width: 47%;
+      background-image: url("../../assets/cat.jpg");
+      background-size: cover;
+      border-radius: 1rem;
     }
   }
 }
@@ -31,16 +32,18 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .about-container {
     .container {
-      grid-template-columns: 1fr;
+      flex-direction: column;
       .details {
+        width: 100%;
         p {
-          font-size: 2.3rem;
-          line-height: 2rem;
+          text-align: left;
+          font-size: 2rem;
+          line-height: 2.5rem;
           width: 100%;
         }
       }
-      .cards {
-        grid-template-columns: 1fr;
+      .picture-container {
+        width: 100%;
       }
     }
   }

@@ -6,6 +6,10 @@ import Blogs from "./sections/Blogs";
 import Footer from "./sections/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import { motion } from "framer-motion";
+import ProjectTitle from "./sections/ProjectTitle";
+import Dreams from "./sections/Dreams";
+import Website from "./sections/Website";
+import Marketplace from "./sections/Marketplace";
 
 function App() {
   return (
@@ -13,8 +17,11 @@ function App() {
       <ScrollToTop />
       <Starter />
       <About />
+      <ProjectTitle />
+      <Dreams />
+      <Website />
+      <Marketplace />
       <Why />
-      <Testimonials />
       <Blogs />
       <Footer />
     </motion.div>

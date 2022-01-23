@@ -1,0 +1,54 @@
+@import "../utils/Colors.scss";
+
+.why-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  h1 {
+    color: $headingColor;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  a.chevron {
+    position: absolute;
+    margin-top: 20rem;
+    animation: arrowBlink 2s infinite;
+  }
+  @keyframes arrowBlink {
+    50% {
+      opacity: 0;
+    }
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .why-container {
+    .container {
+      .top {
+        .subTitle {
+          p {
+            font-size: 1.6rem;
+          }
+        }
+      }
+      .content {
+        .reasons {
+          ul {
+            li {
+              margin-bottom: 3rem;
+              font-size: 1.7rem;
+              &::before {
+                top: 0px;
+              }
+            }
+          }
+        }
+        .video {
+          height: 100%;
+        }
+      }
+    }
+  }
+}

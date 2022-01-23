@@ -2,16 +2,10 @@ import React from "react";
 import { useScroll } from "../components/useScroll";
 import { motion } from "framer-motion";
 import "../styles/sections/Starter.scss";
-import {
-  cardAnimation,
-  fromRight,
-  headerAnimation,
-  imageAnimation,
-  reveal,
-} from "../Animation";
+import { cardAnimation, fromRight, headerAnimation } from "../Animation";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdOutlineContactPage } from "react-icons/md";
 import { BsChevronDoubleDown } from "react-icons/bs";
 
@@ -77,6 +71,9 @@ export default function Starter() {
           </div>
           <div className="resume">
             <MdOutlineContactPage color="white" size={"2rem"} />
+          </div>
+          <div className="linkedin">
+            <AiFillLinkedin color="white" size={"2rem"} />
           </div>
         </motion.div>
         <a className="chevron" href="#about">
