@@ -10,6 +10,7 @@ import ProjectTitle from "./sections/ProjectTitle";
 import Dreams from "./sections/Dreams";
 import Website from "./sections/Website";
 import Marketplace from "./sections/Marketplace";
+import Possum from "./sections/Possum";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Dreams />
       <Website />
       <Marketplace />
-      <Why />
+      <Possum />
       <Blogs />
       <Footer />
     </motion.div>

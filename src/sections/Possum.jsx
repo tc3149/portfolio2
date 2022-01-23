@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/sections/Website.scss";
+import "../styles/sections/Possum.scss";
 import Title from "../components/Title";
 import { motion } from "framer-motion";
 import {
@@ -12,10 +12,10 @@ import {
 import { useScroll } from "../components/useScroll";
 import { FaGithubSquare } from "react-icons/fa";
 
-function Website() {
+function Possum() {
   const [element, controls] = useScroll();
   return (
-    <div className="website-container" id="testimonials" ref={element}>
+    <div className="possum-container" id="possum" ref={element}>
       <div className="container">
         <motion.div
           className="title-container"
@@ -24,11 +24,11 @@ function Website() {
           transition={{ duration: 0.3 }}
         >
           <Title
-            title="Personal Portfolio Website"
+            title="Possum Point of Sale App"
             color="pink"
             lineCenter={true}
           />
-          <p>12/2021 - 01/2022</p>
+          <p>2022 - In development</p>
         </motion.div>
         <div className="content">
           <motion.div
@@ -38,22 +38,23 @@ function Website() {
             transition={{ duration: 0.3 }}
           >
             <ul>
-              <li>The one you are on right now! 🤩</li>
               <li>
-                I've always wanted to create a personal portfolio website to
-                document my software career - it also allows people to have a
-                more interactive experience when viewing my resume.
+                Team-based development of a POS app created with expo and React
+                Native.
               </li>
               <li>
-                I didn't want to simply import a template from Jekyll or
-                WordPress, so I decided to create a website using the React
-                framework from scratch. The design and layout of the UI was
-                achieved through SASS, with animations to supplement the
-                components via Framer Motion and iTyped.
+                Leading in the design and devlopment of a customisable
+                point-of-sale app which provides a menu ordering, transaction,
+                and sales data visualisation interface
               </li>
               <li>
-                Uses a responsive design to handle both desktop and mobile
-                experiences.
+                Our vision is to turn an expensive service into an accessible
+                tool that can create efficiencies and grow small businesses.
+              </li>
+              <li>
+                Skills used include self-taught JavaScript, HTML/CSS, ReactJS,
+                Firebase, Git, UML, system design, data visualisation,
+                leadership and timelining.
               </li>
             </ul>
             <div
@@ -77,4 +78,4 @@ function Website() {
   );
 }
 
-export default Website;
+export default Possum;

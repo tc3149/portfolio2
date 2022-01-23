@@ -48,9 +48,17 @@ function Marketplace() {
                 screen to allow for users to communicate with each other.
               </li>
               <li>
+                User input saved into external database (json file currently)
+                using Formik API.
+              </li>
+              <li>
                 Uses expo-location to enable location sharing for products -
                 shows if a product is feasible enough in location to be
                 purchased.
+              </li>
+              <li>
+                Screens are maneuvered using a StackNavigator to enable
+                responsive and efficient feedback from touches/screen changes.
               </li>
               <li>
                 My first dive in to full-stack development for mobile
