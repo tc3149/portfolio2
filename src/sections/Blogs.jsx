@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import Title from "../components/Title";
 import "../styles/sections/Blogs.scss";
 import BlogImage1 from "../assets/blogImage1.jpg";
-import BlogImage2 from "../assets/blogImage2.jpg";
+import BlogImage2 from "../assets/f13.jpg";
 import BlogImage3 from "../assets/blogImage3.jpg";
 import Blog from "../components/Blog";
 import "../styles/sections/Blogs.scss";
@@ -24,34 +24,32 @@ function Blogs() {
           transition={{ duration: 0.3 }}
         >
           <Title title="Blogs" color="pink" lineCenter={true} />
-          <p>Insights and advice from our experts.</p>
+          <p>My random thoughts and experiences.</p>
         </motion.div>
         <div className="blogs">
           <Blog
             image={BlogImage1}
             variants={cardAnimation}
             animate={controls}
-            title="Top list of Mistakes to Avoid During MVP Development"
-            subTitle="When there appears an idea to create a startup, have to take into
-            account all the risks you will face and evalute them thoughtfullu.
-            Also as a rule..."
+            title="Honest Thoughts on UNSW CSE Courses"
+            subTitle="In progress! 😴"
           />
           <Blog
             image={BlogImage2}
             variants={cardAnimation}
             animate={controls}
-            title="A Day in the life on an Engineering Manager"
-            subTitle="During the eight years I spent as an engineering manager, I regularly tracked how I spent my time. As a startup engineering manager, I was ... "
+            title="My thoughts on the Hamilton-Verstappen Drama"
+            subTitle="I will get on to writing blogs soon! i have so much to talk about on this LOL 😴"
           />
           <Blog
             image={BlogImage3}
             variants={cardAnimation}
             animate={controls}
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="In Progress"
+            subTitle="I will get on to writing blogs soon! 😴"
           />
         </div>
-        <div className="button-container">
+        <div className="button-container" style={{ display: "none" }}>
           <Button content="View All" />
         </div>
       </div>

@@ -36,7 +36,7 @@ function About() {
             Outside of coursework, you can find me playing basketball, helping
             out at CSESoc or travelling with mates ✈
           </p>
-          <p>Here's my cat Theo in a box 🐱📦</p>
+          <p>Here's my cat Theo in a box 🐱📦 ➡</p>
         </motion.div>
         <motion.div
           className="picture-container"

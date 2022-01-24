@@ -43,7 +43,7 @@ function Possum() {
                 Native.
               </li>
               <li>
-                Leading in the design and devlopment of a customisable
+                Role: Leading in the design and devlopment of a customisable
                 point-of-sale app which provides a menu ordering, transaction,
                 and sales data visualisation interface
               </li>

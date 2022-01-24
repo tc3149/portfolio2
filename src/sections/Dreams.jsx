@@ -39,7 +39,7 @@ function Dreams() {
             animate={controls}
             transition={{ duration: 0.3 }}
           >
-            <ul>
+            <ul className="list">
               <li>
                 Team-based back-end development of a web-based messaging
                 application for university students
