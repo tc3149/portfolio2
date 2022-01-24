@@ -28,11 +28,12 @@
     }
     .row-container {
       display: flex;
-      width: 40%;
-      justify-content: space-between;
+      width: 100%;
+      justify-content: center;
       align-items: center;
       .section1 {
         text-align: center;
+        margin-right: 2rem;
         p {
           font-size: 1.4rem;
           color: rgb(235, 229, 229);
@@ -49,6 +50,7 @@
         background: white;
       }
       .section2 {
+        margin-left: 2rem;
         text-align: center;
         p {
           font-size: 1.4rem;
