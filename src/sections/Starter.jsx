@@ -29,7 +29,7 @@ export default function Starter() {
           variants={cardAnimation}
           transition={{ delay: 0.5, type: "tween" }}
         >
-          <h1>Thomas Chen</h1>
+          <h1>Test Chen</h1>
           <h2>
             <span ref={textRef}></span>
           </h2>
