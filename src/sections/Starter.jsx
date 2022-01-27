@@ -8,6 +8,7 @@ import { useEffect, useRef } from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdOutlineContactPage } from "react-icons/md";
 import { BsChevronDoubleDown } from "react-icons/bs";
+import Pdf from "../assets/newResume.pdf";
 
 export default function Starter() {
   const [element, controls] = useScroll();
@@ -69,7 +70,7 @@ export default function Starter() {
           >
             <AiFillGithub color="white" size={"2rem"} />
           </div>
-          <div className="resume">
+          <div className="resume" onClick={() => window.open(Pdf)}>
             <MdOutlineContactPage color="white" size={"2rem"} />
           </div>
           <div className="linkedin">
