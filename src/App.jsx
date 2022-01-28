@@ -11,8 +11,15 @@ import Dreams from "./sections/Dreams";
 import Website from "./sections/Website";
 import Marketplace from "./sections/Marketplace";
 import Possum from "./sections/Possum";
+import ReactGA from "react-ga";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("UA-218795652-1");
+    ReactGA.pageview("/");
+  }, []);
+
   return (
     <motion.div initial="hidden" animate="show">
       <ScrollToTop />
