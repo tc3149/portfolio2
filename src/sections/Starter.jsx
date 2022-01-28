@@ -70,7 +70,7 @@ export default function Starter() {
           >
             <AiFillGithub color="white" size={"2rem"} />
           </div>
-          <div className="resume" onClick={() => window.open(Pdf)}>
+          <div className="resume">
             <MdOutlineContactPage color="white" size={"2rem"} />
           </div>
           <div className="linkedin">
