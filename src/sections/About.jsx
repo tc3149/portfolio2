@@ -21,9 +21,10 @@ function About() {
             Hi! My name is Thomas and I am a Third Year (Penultimate)
             Commerce/Computer Science Student at UNSW. I am largely a
             self-taught developer and am always keen to learn new tools or
-            languages to apply to my personal projects. As a casual academic, I
-            also assist UNSW's School of Computer Science with marking and
-            tutorials.
+            languages to apply to my personal projects. Currently I am working
+            as junior developer at a Startup called Qwokka where I get to
+            practically apply my React and Typescript skills to develop and
+            improve their website.
           </p>
           <p>
             Currently I am exploring web development (e.g. this website!)
@@ -33,8 +34,9 @@ function About() {
             user interfaces.
           </p>
           <p>
-            Outside of coursework, you can find me playing basketball, helping
-            out at CSESoc or travelling with mates ✈
+            Outside of coursework, ou can also find me playing basketball,
+            travelling or helping out at UNSW Investing For Charity as an IT
+            officer.
           </p>
           <p>Here's my cat Theo in a box 🐱📦 ➡</p>
         </motion.div>
