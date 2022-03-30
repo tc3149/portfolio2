@@ -18,13 +18,12 @@ function About() {
         >
           <Title title="About Me 😎" color="blue" lineCenter={false} />
           <p>
-            Hi! My name is Thomas and I am a Third Year (Penultimate)
-            Commerce/Computer Science Student at UNSW. I am largely a
-            self-taught developer and am always keen to learn new tools or
-            languages to apply to my personal projects. Currently I am working
-            as junior developer at a Startup called Qwokka where I get to
-            practically apply my React and Typescript skills to develop and
-            improve their website.
+            Hi! My name is Thomas and I study Commerce/Computer Science Student
+            at UNSW. I am largely a self-taught developer and am always keen to
+            learn new tools or languages to apply to my personal projects.
+            Currently I am working as junior developer at a Startup called
+            Qwokka where I get to practically apply my React and Typescript
+            skills to develop and improve their website.
           </p>
           <p>
             Currently I am exploring web development (e.g. this website!)
