@@ -73,7 +73,15 @@ export default function Starter() {
           <div className="resume" onClick={() => window.open(Pdf)}>
             <MdOutlineContactPage color="white" size={"2rem"} />
           </div>
-          <div className="linkedin">
+          <div
+            className="linkedin"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/thomaswchen/",
+                "mywindow"
+              )
+            }
+          >
             <AiFillLinkedin color="white" size={"2rem"} />
           </div>
         </motion.div>

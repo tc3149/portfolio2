@@ -20,22 +20,26 @@ function About() {
           <p>
             Hi! My name is Thomas and I study Commerce/Computer Science Student
             at UNSW. I am largely a self-taught developer and am always keen to
-            learn new tools or languages to apply to my personal projects.
-            Currently I am working as junior developer at a Startup called
-            Qwokka where I get to practically apply my React and Typescript
-            skills to develop and improve their website.
+            learn new tools or languages to apply to my personal projects. I
+            have worked as junior software developer at a Startup called Qwokka
+            where I get to practically apply my React and Typescript skills to
+            develop and improve their website. Currently, I am interning at
+            Optus for Cyber Security where I get to explore python
+            scripting/automation and threat analysis
           </p>
           <p>
             Currently I am exploring web development (e.g. this website!)
             through React.js and mobile app development with React Native. I
             find full-stack development the most interesting at the moment; it
             is satisfying seeing and creating polished products with beautiful
-            user interfaces.
+            user interfaces. I am also highly interested in security engineering
+            and am always curious to read up more about the latest updates
+            within that field.
           </p>
           <p>
-            Outside of coursework, ou can also find me playing basketball,
-            travelling or helping out at UNSW Investing For Charity as an IT
-            officer.
+            Outside of coursework, ou can also find me competing in
+            powerlifting, travelling or helping out at UNSW Investing For
+            Charity as an IT Director.
           </p>
           <p>Here's my cat Theo in a box 🐱📦 ➡</p>
         </motion.div>
