@@ -37,9 +37,12 @@ function About() {
             within that field.
           </p>
           <p>
-            Outside of coursework, ou can also find me competing in
-            powerlifting, travelling or helping out at UNSW Investing For
-            Charity as an IT Director.
+            Outside of coursework, you can find me competing in powerlifting,
+            travelling or helping out at both UNSW Investing For Charity and the
+            UNSW Real Estate Society as an IT Director. I am also highly
+            interested in exploring the startup ecosystem in Australia, using
+            one of my projects "Outings" as a pitch which succesfully joined
+            Blackbird Giants (I get to work on it with mentoring!)
           </p>
           <p>Here's my cat Theo in a box 🐱📦 ➡</p>
         </motion.div>
